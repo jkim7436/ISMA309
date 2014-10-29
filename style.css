@@ -8,7 +8,28 @@ Template: simone
 
 @import url('../simone/style.css');
 
-/*hello my dear*/
-/*I love to make changes - keep working on it*/
+/* =Theme customization starts here
+-------------------------------------------------------------- */
+/* title/logo area */
+.site-branding{
+}
+.title-box{
+    border:none;
+}
+/* navigation menu */
+.main-navigation{
+    background:#525252;
+}
+.search-box{
+    display:none
+}
+/* content*/
+.content-area{
+}
+blockquote p{
+    color:#00CC99;
+    font-family: Futura;
+
+}
 
 
