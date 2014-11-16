@@ -10,11 +10,14 @@ Template: simone
 
 /* =Theme customization starts here
 -------------------------------------------------------------- */
-/* title/logo area */
+/* title&logo area */
 .site-branding{
 }
 .title-box{
     border:none;
+}
+.title-box .site-title a{
+    
 }
 /* navigation menu */
 .main-navigation{
@@ -33,3 +36,18 @@ blockquote p{
 }
 
 
+/*________________________________________________*/
+.taxonomies {
+    font-family: 'Lato';
+    font-size: 90%;
+    margin-bottom: 2rem;
+    color:#FF5050;
+}
+
+.taxonomies a {
+    font-weight: 600;
+}
+
+.border{
+    border:1px solid #3399FF!important;
+}
