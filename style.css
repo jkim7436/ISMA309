@@ -7,6 +7,10 @@ Template: simone
 */
 
 /*@import url('../simone/style.css');*/
+body{
+    font-family: 'PT Sans', sans-serif;
+}
+
 
 /* =Theme customization starts here
 -------------------------------------------------------------- */
