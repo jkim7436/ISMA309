@@ -1,0 +1,61 @@
+/*
+Theme Name: ISMA309
+Author: Morten Rand-Hendriksen et.al.
+Description: Repo version of ISMA309 Child Theme
+Version: 0.0.1
+Template: simone
+*/
+
+/*@import url('../simone/style.css');*/
+
+/* =Theme customization starts here
+-------------------------------------------------------------- */
+/**Header**/
+/*Visual*/
+.site-branding{
+    display:none;
+}
+.title-box{
+    border:none;
+}
+/*navigation-menu*/
+.main-navigation{
+    background:#525252;
+}
+.search-box{
+    display:none
+}
+.main-navigation{
+    /*you can add color*/
+    font-family: arial;
+}
+.main-navigation .menu-main-menu-container{
+    margin-left:200px;
+    
+}
+/**content**/
+.content-area{
+    background:black;
+}
+blockquote p{
+    color:#00CC99;
+    font-family: Futura;
+}
+
+
+/*________________________________________________*/
+.taxonomies {
+    font-family: 'Lato';
+    font-size: 90%;
+    margin-bottom: 2rem;
+    color:#FF5050;
+}
+
+.taxonomies a {
+    font-weight: 600;
+}
+
+.border{
+    border:1px solid #3399FF!important;
+}
+ No newline at end of file
