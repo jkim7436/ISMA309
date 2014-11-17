@@ -10,20 +10,22 @@ Template: simone
 
 /* =Theme customization starts here
 -------------------------------------------------------------- */
-/* title/logo area */
+/**Header**/
+/*visual*/
 .site-branding{
+    display:none;
 }
 .title-box{
     border:none;
 }
-/* navigation menu */
+/*navigation-menu*/
 .main-navigation{
     background:#525252;
 }
 .search-box{
-    display:none
+    display:none;
 }
-/* content*/
+/**content**/
 .content-area{
 }
 blockquote p{
