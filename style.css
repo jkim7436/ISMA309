@@ -10,29 +10,35 @@ Template: simone
 
 /* =Theme customization starts here
 -------------------------------------------------------------- */
-/* title&logo area */
+/**Header**/
+/*Visual*/
 .site-branding{
+    display:none;
 }
 .title-box{
     border:none;
 }
-.title-box .site-title a{
-    
-}
-/* navigation menu */
+/*navigation-menu*/
 .main-navigation{
     background:#525252;
 }
 .search-box{
     display:none
 }
-/* content*/
+.main-navigation{
+    /*you can add color*/
+    font-family: arial;
+}
+.main-navigation .menu-main-menu-container{
+    margin-left:200px;
+    
+}
+/**content**/
 .content-area{
 }
 blockquote p{
     color:#00CC99;
     font-family: Futura;
-
 }
 
 
