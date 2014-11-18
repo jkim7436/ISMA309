@@ -6,6 +6,55 @@ Version: 0.1
 Template: simone
 */
 
+/************************************************************************/
+body{
+    font-family: 'PT Sans', sans-serif;
+}
+/**Header**/
+/*Visual*/
+.site-branding{
+    display:none;
+}
+.title-box{
+    border:none;
+}
+/*navigation-menu*/
+.main-navigation{
+    background:#525252;
+}
+.search-box{
+    display:none
+}
+.main-navigation{
+    /*you can add color*/
+    font-family: arial;
+}
+.main-navigation .menu-main-menu-container{
+    margin-left:200px;
+    
+}
+/**content**/
+.content-area{
+
+}
+blockquote p{
+    color:#00CC99;
+    font-family: Futura;
+}
+
+/**Taxonomies**/
+.taxonomies {
+    font-family: 'Lato';
+    font-size: 90%;
+    margin-bottom: 2rem;
+    color:#FF5050;
+}
+
+.taxonomies a {
+    font-weight: 600;
+}
+
+/**Review page theme**/
 .movie-info {
     background: hsl(0, 0%, 95%);
     margin-bottom: 2rem;
