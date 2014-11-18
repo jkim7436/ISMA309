@@ -1,63 +1,124 @@
 /*
 Theme Name: ISMA309
-Author: Morten Rand-Hendriksen et.al.
-Description: Repo version of ISMA309 Child Theme
-Version: 0.0.1
+Description: Simone child theme that demonstrates movie review functionality
+Author: Morten Rand-Hendriksen
+Version: 0.1
 Template: simone
 */
 
-/*@import url('../simone/style.css');*/
-
-body{
-    font-family: 'PT Sans', sans-serif;
-}
-/* =Theme customization starts here
--------------------------------------------------------------- */
-/**Header**/
-/*Visual*/
-.site-branding{
-    display:none;
-}
-.title-box{
-    border:none;
-}
-/*navigation-menu*/
-.main-navigation{
-    background:#525252;
-}
-.search-box{
-    display:none
-}
-.main-navigation{
-    /*you can add color*/
-    font-family: arial;
-}
-.main-navigation .menu-main-menu-container{
-    margin-left:200px;
-    
-}
-/**content**/
-.content-area{
-
-}
-blockquote p{
-    color:#00CC99;
-    font-family: Futura;
-}
-
-/**Taxonomies**/
-.taxonomies {
-    font-family: 'Lato';
-    font-size: 90%;
+.movie-info {
+    background: hsl(0, 0%, 95%);
     margin-bottom: 2rem;
-    color:#FF5050;
 }
 
-.taxonomies a {
-    font-weight: 600;
+.movie-poster img {
+    display: block;
 }
 
-.border{
-    border:1px solid #3399FF!important;
+.movie-data,
+.short-review {
+    width: 100%;
+    padding: 2rem 2rem 0;
+    font-family: 'Lato', sans-serif;
 }
- No newline at end of file
+
+.movie-tax {
+    margin-bottom: 1.5rem;
+    font-size: 16px;
+}
+
+.entry-content .movie-data-title {
+    font-size: 1.8rem;
+    margin-bottom: 0;
+}
+
+.short-review {
+    clear: both;
+}
+.short-review p {
+    font-size: 16px;
+}
+
+@media screen and (min-width: 446px) {
+    .movie-poster,
+    .movie-data {
+        max-width: 50%;
+        float: left;
+    }
+}
+
+@media screen and (min-width: 750px){
+    .short-review {
+        padding-top: 0;
+        max-width: 50%;
+        float: left;
+        clear: none;
+    }
+} 
+
+.reviewer-name {
+    width: 70px;
+    display: inline-block;
+}
+
+.grey {
+    color: hsl(0, 0%, 70%);
+}
+
+/* Review archive page */
+.review-index {
+    margin: 2rem;
+}
+
+.review-item {
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+@media screen and (min-width: 473px) {
+    .review-item {
+        min-width: 200px;
+        width: 20%;
+        padding: 5px;
+    }
+}
+
+.review-item img {
+    display: block;
+}
+
+/* Review archive filter */
+
+.filter-boxes {
+    font-family: 'Lato', sans-serif;
+    background: #fff;
+    padding: 2rem;
+    margin-bottom: 2rem;
+}
+
+
+.filter-boxes ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.filter-boxes li {
+    padding: 2px 0;
+    width: 174px;
+}
+
+.tax-stack li {
+    display: inline-block;
+    padding:5px 10px;
+    margin: 0 5px 10px 0;
+    border-radius: 5px;
+    width: auto;
+    border: solid 1px #43C7F4;
+}
+
+.tax-stack li.active {
+    background: #43C7F4;
+    color: #fff;
+    border-color: #fff;
+}
