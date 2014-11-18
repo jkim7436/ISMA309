@@ -1,6 +1,12 @@
 <?php
 
+/*new function for fonts*/
+function ISMA309_google_fonts(){
+    wp_enqueue_style('PT_Sans','http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic');
+}
+add_action('wp_enqueue_scripts','ISMA309_google_fonts');
 
+/*review functions*/
 add_image_size( 'poster-single', 350, 539, true );
 
 
