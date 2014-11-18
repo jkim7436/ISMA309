@@ -2,7 +2,7 @@
 Theme Name: ISMA309
 Author: Morten Rand-Hendriksen et.al.
 Description: Repo version of ISMA309 Child Theme
-Version: 0.0.1
+Version: 0.0.2222
 Template: simone
 */
 
@@ -35,7 +35,7 @@ Template: simone
 }
 /**content**/
 .content-area{
-    background:black;
+
 }
 blockquote p{
     color:#00CC99;
