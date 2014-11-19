@@ -8,7 +8,7 @@ function ISMA309_google_fonts(){
 add_action('wp_enqueue_scripts','ISMA309_google_fonts');
 
 /*review functions*/
-add_image_size( 'poster-single', 350, 539, true );
+add_image_size( 'poster-single', 350, 540, true );
 
 
 function my_add_reviews( $query ) {
