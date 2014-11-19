@@ -4,8 +4,8 @@
  */
 
 // If we are looking at a Review, jump to content-movie.php and ignore the rest
-if('review' === get_post_type() ) {
-    get_template_part('content','review');
+if('activity' === get_post_type() ) {
+    get_template_part('content','activity');
     return;
 }
 ?>

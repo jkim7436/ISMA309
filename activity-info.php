@@ -29,8 +29,8 @@
             echo get_rating($post->ID);
         ?>
     </div>
-    <div class="short-review">
-        <h4 class="movie-data-title">Quick Review</h4>
+    <div class="short-activity">
+        <h4 class="movie-data-title">Quick Activity</h4>
         <?php the_excerpt(); ?>
     </div>
 </div><!-- .movie-info -->

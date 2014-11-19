@@ -18,7 +18,7 @@
                     <a href="<?php the_permalink(); ?>" rel="bookmark">
                         <?php 
                         the_title();
-                        if ('review' === get_post_type()){
+                        if ('activity' === get_post_type()){
                             // Echo out the year if this is a review
                             $terms = get_the_terms( $post->ID, 'release_year' );
                             if( $terms && ! is_wp_error( $terms ) ){
@@ -44,10 +44,10 @@
 	</header><!-- .entry-header -->
         
             <div class="entry-content">
-                <?php get_template_part('review', 'info'); ?> <!--generate a box on the post page-->
+                <?php get_template_part('activity', 'info'); ?> <!--generate a box on the post page-->
             </div><!-- .entry-content -->
             <footer class="entry-footer continue-reading">
-		<?php echo '<a href="' . get_permalink() . '" title="' . __('Read Full Review ', 'simone') . get_the_title() . '" rel="bookmark">' . __('Read Full Review', 'simone') . '<i class="fa fa-arrow-circle-o-right"></i><span class="screen-reader-text"> ' . get_the_title() . '<span></a>'; ?>
+		<?php echo '<a href="' . get_permalink() . '" title="' . __('Read Full Activity ', 'simone') . get_the_title() . '" rel="bookmark">' . __('Read Full Activity', 'simone') . '<i class="fa fa-arrow-circle-o-right"></i><span class="screen-reader-text"> ' . get_the_title() . '<span></a>'; ?>
             </footer><!-- .entry-footer -->
 
 	
