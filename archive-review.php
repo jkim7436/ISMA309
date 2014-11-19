@@ -10,7 +10,7 @@ get_header(); ?>
         
         <nav class="filter-boxes">
                 <div class="tax-stack">
-                    <h3 class="filter-title">Year of Release</h3>
+                    <h3 class="filter-title">Ages</h3>
                     <div class = "option-set">
                         <ul>
                         <?php
@@ -46,7 +46,7 @@ get_header(); ?>
                         ?>   
                         </ul>
                     </div>   
-                    <h3 class="filter-title">Features</h3>
+                    <h3 class="filter-title">Catagories</h3>
                     <div class = "option-set">
                         <ul>
                         <?php
@@ -64,7 +64,7 @@ get_header(); ?>
                         ?>   
                         </ul>
                     </div>   
-                    <h3 class="filter-title">Mood</h3>
+                    <h3 class="filter-title">Time</h3>
                     <div class = "option-set">
                         <ul>
                         <?php
