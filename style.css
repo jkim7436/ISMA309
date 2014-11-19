@@ -13,17 +13,18 @@ body{
 /**Header**/
 /*Visual*/
 .site-branding{
-    display:none;
+    
 }
 .title-box{
     border:none;
+    background:red;
 }
 /*navigation-menu*/
 .main-navigation{
     background:#525252;
 }
 .search-box{
-    display:none
+    
 }
 .main-navigation{
     /*you can add color*/
