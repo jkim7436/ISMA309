@@ -5,7 +5,7 @@ jQuery(document).ready(function($){
         $container.isotope({
           // options
           itemSelector: '.review-item',
-          layoutMode: 'masonry'
+          layoutMode: 'fitRows'
         });
     });
 

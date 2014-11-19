@@ -85,7 +85,7 @@ get_header(); ?>
                 </div>
             </nav>
         
-		<main id="main" class="activity-index" role="main">
+		<main id="main" class="review-index" role="main">
            
 		<?php if ( have_posts() ) : ?>
 
@@ -96,9 +96,9 @@ get_header(); ?>
                             // Do we have a featured image? If so, display it
                             if (has_post_thumbnail()){
                             ?>
-                            <article class="activity-item <?php echo custom_taxonomies_terms_links($post->ID); ?>">
+                            <article class="review-item <?php echo custom_taxonomies_terms_links($post->ID); ?>">
                                 <figure class="index-poster">
-                                    <a href="<?php echo get_the_permalink(); ?>" title="Read the activity of <?php echo esc_attr(get_the_title()); ?>">
+                                    <a href="<?php echo get_the_permalink(); ?>" title="Read the review of <?php echo esc_attr(get_the_title()); ?>">
                                         <?php the_post_thumbnail('poster-single'); ?>
                                     </a>
                                 </figure>

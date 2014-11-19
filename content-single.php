@@ -37,7 +37,7 @@
 		<h1 class="entry-title">
                 <?php 
                     the_title(); 
-                    if ('activity' === get_post_type()){
+                    if ('review' === get_post_type()){
                         // Echo out the year if this is a review
                         $terms = get_the_terms( $post->ID, 'release_year' );
                         if( $terms && ! is_wp_error( $terms ) ){
@@ -63,8 +63,8 @@
         
         <div class="entry-content">
                 <?php 
-                if ('actvity' === get_post_type()){
-                    get_template_part('activity', 'info'); 
+                if ('review' === get_post_type()){
+                    get_template_part('review', 'info'); 
                 }
                 ?>
 		<?php the_content(); ?>
