@@ -91,3 +91,13 @@ function get_rating($post_ID){
         echo '</div>';
     } // Endif
 }
+
+function get_all_reviews($query) {
+    if (!is_admin() && $query->is_main_query()){
+        if (is_post_type_archive('review')) {
+            $query->set('posts_per_page', -1);
+        }
+    }
+}
+
+add_action('pre_get_posts', 'get_all_reviews');

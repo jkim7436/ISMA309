@@ -67,6 +67,7 @@
                     get_template_part('review', 'info'); 
                 }
                 ?>
+            <?php echo 'This is the content-single.php template file in the child theme.'; ?>
 		<?php the_content(); ?>
 		<?php
 			wp_link_pages( array(

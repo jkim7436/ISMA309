@@ -3,10 +3,10 @@
  * Template shows posts on index pages (index, archive, author, search, etc)
  */
 
-// If we are looking at a Review, jump to content-movie.php and ignore the rest
+// If we are looking at a Review, jump to content-review.php and ignore the rest
 if('review' === get_post_type() ) {
     get_template_part('content','review');
-    return;
+    return; // stop
 }
 ?>
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
@@ -76,6 +76,7 @@ if('review' === get_post_type() ) {
         } else { ?>
             <div class="entry-content">
                     <?php the_excerpt(); ?>
+                <?php echo 'This is the index content powered by content.php in the child theme.'; ?>
             </div><!-- .entry-content -->
             <footer class="entry-footer continue-reading">
 		<?php echo '<a href="' . get_permalink() . '" title="' . __('Continue Reading ', 'simone') . get_the_title() . '" rel="bookmark">' . __('Continue Reading', 'simone') . '<i class="fa fa-arrow-circle-o-right"></i><span class="screen-reader-text"> ' . get_the_title() . '<span></a>'; ?>
