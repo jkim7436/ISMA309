@@ -17,9 +17,8 @@ body{
 }
 .title-box{
     border:none;
-    background:red;
 }
-/*navigation-menu*/
+/*Navigation-menu*/
 .main-navigation{
     background:#525252;
 }
@@ -34,7 +33,7 @@ body{
     margin-left:200px;
     
 }
-/**content**/
+/**Content**/
 .content-area{
 
 }
@@ -43,6 +42,16 @@ blockquote p{
     font-family: Futura;
 }
 
+/*Widget*/
+.site-content .widget-area{
+    background:hsl(102, 100%, 83%);
+}
+@media screen and (max-width: 768px) {
+    .widget-area {
+        display:none;
+        
+    }
+}
 /**Taxonomies**/
 .taxonomies {
     font-family: 'Lato';
@@ -138,7 +147,6 @@ blockquote p{
 }
 
 /* Review archive filter */
-
 .filter-boxes {
     font-family: futura;
     background: #fff;
