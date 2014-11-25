@@ -67,6 +67,7 @@ blockquote p{
 .movie-info {
     background: hsl(0, 0%, 95%);
     margin-bottom: 2rem;
+    border:2px dotted red;
 }
 
 .movie-poster img {
