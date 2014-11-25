@@ -19,10 +19,10 @@
             <?php echo get_the_term_list( $post->ID, 'genre', '<h4 class="movie-data-title">Genre</h4>', ', ', '' ); ?> 
         </div>
         <div class="movie-tax">
-            <?php echo get_the_term_list( $post->ID, 'feature', '<h4 class="movie-data-title">Features</h4>', ', ', '' ); ?> 
+            <?php echo get_the_term_list( $post->ID, 'feature', '<h4 class="movie-data-title">Catgory</h4>', ', ', '' ); ?> 
         </div>
         <div class="movie-tax">
-            <?php echo get_the_term_list( $post->ID, 'mood', '<h4 class="movie-data-title">Moods</h4>', ', ', '' ); ?> 
+            <?php echo get_the_term_list( $post->ID, 'mood', '<h4 class="movie-data-title">Time</h4>', ', ', '' ); ?> 
         </div>
         <?php
             // Output rating through function get_rating() found in functions.php
