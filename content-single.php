@@ -68,7 +68,8 @@
                     get_template_part('review', 'info'); 
                 }
                 ?>
-            <?php echo 'This is the content-single.php template file in the child theme.'; ?>
+            
+            <?php echo '//지워~This is the content-single.php template file in the child theme.'; ?> 
             <?php // Regardless, output the full content of the post ?>
 		<?php the_content(); ?> 
 		<?php
