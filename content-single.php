@@ -63,12 +63,14 @@
         
         <div class="entry-content">
                 <?php 
+                // If the current post is in the Reviews post type, output the review-info.php template content
                 if ('review' === get_post_type()){
                     get_template_part('review', 'info'); 
                 }
                 ?>
             <?php echo 'This is the content-single.php template file in the child theme.'; ?>
-		<?php the_content(); ?>
+            <?php // Regardless, output the full content of the post ?>
+		<?php the_content(); ?> 
 		<?php
 			wp_link_pages( array(
 				'before' => '<div class="page-links">' . __( 'Pages:', 'simone' ),
