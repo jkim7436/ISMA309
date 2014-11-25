@@ -65,9 +65,9 @@ blockquote p{
 
 /**Review page theme**/
 .movie-info {
-    background: hsl(0, 0%, 95%);
+    background: hsl(50, 30%, 95%);
     margin-bottom: 2rem;
-    border:2px dotted red;
+    border:2px dotted #FF0049;
 }
 
 .movie-poster img {
