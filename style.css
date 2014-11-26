@@ -67,9 +67,11 @@ blockquote p{
 .movie-info {
     background: hsl(0, 0%, 95%);
     margin-bottom: 2rem;
-    border:2px dotted red;
+    border:2px dotted #32DEFF;
 }
-
+.movie-data-title{
+ font-family: 'droid Sans', sans-serif;
+}
 .movie-poster img {
     display: block;
 }
