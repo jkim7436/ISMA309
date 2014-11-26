@@ -30,11 +30,16 @@ body{
     font-family: arial;
 }
 .main-navigation .menu-main-menu-container{
-    
 }
 /**Content**/
 .content-area{
-
+    padding:0 20px;
+}
+@media screen and (max-width: 768px) {
+    .content-area {
+       padding:inherit;
+        
+    }
 }
 blockquote p{
     color:#00CC99;
@@ -43,7 +48,6 @@ blockquote p{
 
 /*Widget*/
 .site-content .widget-area{
-    background:hsl(102, 100%, 83%);
 }
 @media screen and (max-width: 768px) {
     .widget-area {
