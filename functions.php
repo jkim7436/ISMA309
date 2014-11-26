@@ -3,7 +3,7 @@
 
 /*new function for fonts*/
 function ISMA309_google_fonts(){
-    wp_enqueue_style('PT_Sans','http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic');
+    wp_enqueue_style('Two_fonts','http://fonts.googleapis.com/css?family=Droid+Sans:400,700|PT+Sans:400,700,400italic,700italic');
 }
 add_action('wp_enqueue_scripts','ISMA309_google_fonts');
 
